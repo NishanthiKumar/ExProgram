@@ -10,6 +10,7 @@ public class UseComputer {
 		computer.taxPercentage=Integer.parseInt(values[3]);
 		computer.netPrice=computer.price+(computer.price*computer.taxPercentage/100);
 		System.out.println("Brand="+computer.brand+" DisplaySize="+computer.displaySize+" Price="+computer.price+" Netprice="+computer.netPrice);
+		System.out.println("********");
 	}
 
 }
