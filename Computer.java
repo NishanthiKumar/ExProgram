@@ -1,7 +1,7 @@
 package lms;
 
 public class Computer {
-	String brand;
+	String braNd;
 	float displaySize;
 	int price;
 	int taxPercentage;
